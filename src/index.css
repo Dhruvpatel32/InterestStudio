@@ -1,0 +1,11 @@
+@import "/src/style/base.css";
+@import "/src/style/components/loginPage.css";
+@import "/src/style/components/profileForm.css";
+@import "/src/style/components/signUp.css";
+@import "./style/components/header.css";
+@import "./style/components/exploreFields.css";
+@import "./style//components/exploreInterest.css";
+@import "./style/components/profile.css";
+@import "./style/components/personsinterestListItem.css";
+@import "./style/components/viewParticularInterest.css";
+@import "./style/components/people_list.css";

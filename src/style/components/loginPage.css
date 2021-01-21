@@ -1,0 +1,87 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+body{
+     margin:0px;
+     padding:0px;
+}
+.loginbox{
+    display: flex;
+    justify-content: space-around;
+    height:100vh;
+    width:100hh;
+    background:linear-gradient(to  bottom left,#e6bef7,#7579ff  )
+}
+.loginbox h1{
+    margin:20px;
+    padding:10px;  
+}
+.textbox{
+    border-left:3px solid midnightblue;
+    border-bottom: 1px solid midnightblue;  
+    display: flex;
+}
+.textbox i{ 
+    margin-left: 10px;
+    margin-top:auto;
+    margin-bottom: auto; 
+}
+.textbox input{
+     border: none;
+    outline: none;
+    margin:10px;
+}
+button{
+    width: 20%;
+    background:-webkit-linear-gradient(right, #b224ef, #7579ff);
+    color: black;
+    padding: 3px;
+    font-size: 18px; 
+    border-radius: 30px;
+    
+}
+button:disabled{
+    width: 20%;
+    background:-webkit-linear-gradient(right, #b224ef, #7579ff);
+    color: black;
+    padding: 3px;
+    font-size: 18px; 
+    border-radius: 30px;
+    opacity: 0.6;
+    pointer-events: none;
+}
+
+button:hover {
+    background:-webkit-linear-gradient(left, #b224ef, #7579ff);
+}
+.newuser{
+     margin-left:20px;
+     margin-right: 20px;  
+} 
+.icon ul{
+  display: flex;
+  justify-content: space-between;
+  padding:2px;
+} 
+.logo{
+    margin-top:auto;
+    margin-bottom: auto;
+}
+.loginForm{
+    margin-top:auto;
+    margin-bottom: auto;   
+}
+.loginforminput{
+   margin:20px;
+    padding:5px;
+}
+.signuplink{
+    border-radius: 10px;
+   background: -webkit-linear-gradient(right, #b224ef, #7579ff);
+   width: 20%;
+   justify-content: center;
+   padding: 4px;
+   text-transform: uppercase;
+   font-family: 'Montserrat', sans-serif;   
+}
+.signuplink:hover {
+    background:linear-gradient(left, #b224ef, #7579ff);
+}
